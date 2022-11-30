@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white
+}
+
+section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 40px;
+}
+/* #191919 */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #191919 ;
+  padding: 20px 50px;
+  font-size: 15pt;
+}
+
+@media screen and (max-width: 390px) {
+    .navbar {
+        flex-direction: column;
+    } 
+
+    .navbar .logo {
+        margin-bottom: 20px;
+    }
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: pink;
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav-container {
+    display: flex;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.hr {
+    border: 2px solid;
+    border-color: pink;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.YTvideo {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url('aesthetic-pink.gif'); 
+    background-repeat:repeat;
+    background-size: cover;
+}
+
+
+.spacing {
+    padding-bottom: 20px;
+    padding-top: 40px;
+    display: flex;
+
+}
+
+.footer {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fa {
+  padding: 15px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: pink;
+  color: black;
+}
+
+.fa-instagram {
+    background: pink;
+    color: black;
+  }
+
+.fa-youtube-play {
+    background: pink;
+    color: black;
+}
+
+.fa-twitter {
+    background: pink;
+    color: black;
+}
+
+.fa-spotify {
+    background: pink;
+    color: black;
+}
+
+.head1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45pt;
+    padding-top: 40px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    margin-top: -30px;
+}
+
