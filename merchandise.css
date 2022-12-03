@@ -1,5 +1,4 @@
 
-
 a{
     text-decoration: none;
 }
@@ -196,22 +195,87 @@ a{
 }
 
 
-@media screen and (max-width: 390px) {
-    .navbar {
-        flex-direction: column;
-    } 
 
-    .navbar .logo {
-        margin-bottom: 20px;
-    }
 
-    .promote{
-        
-        flex-direction: column;
 
-    }
-    .side{
-        margin-bottom: 20px;
-    }
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
