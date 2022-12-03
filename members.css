@@ -1,7 +1,7 @@
 
 .content{
 
-    background-image:url('bpBGPIC.jpg');
+    background-image:url('./Assets/bpBGPIC.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: relative;
@@ -57,7 +57,7 @@
 
 /* edit photo */
 .profile{
-    background-image:url('pink-petals-pink.gif'); 
+    background-image:url('./Assets/pink-petals-pink.gif'); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

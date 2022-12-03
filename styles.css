@@ -67,7 +67,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image:url('aesthetic-pink.gif'); 
+    background-image:url('./Assets/aesthetic-pink.gif'); 
     background-repeat:repeat;
     background-size: cover;
 }
