@@ -118,6 +118,11 @@
         flex-wrap: wrap;
         
     }
+
+    .footer {
+        padding-bottom: 15px;
+        font-size: 12pt;
+    }
 }
 
 .icon{
