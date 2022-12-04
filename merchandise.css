@@ -198,24 +198,18 @@ a{
 
 @media screen and (max-width: 400px)
 {
-   
-   
-   
     .image{
         width: 350px;
         height: 250px;
         display: flex;
         flex-wrap: wrap;
         padding: 0;
-
-
     }
 
     .promote {
         display: flex;
         padding-left: 10px;
     }
-
 
     .Merch{
         margin-top: 20px;
@@ -244,12 +238,7 @@ a{
 
     .footer {
         padding-bottom: 15px;
-        font-size: 12pt;
-        
-        
-        
-        
-
+        font-size: 12pt;   
 
     }
 

@@ -97,6 +97,9 @@
 
 @media screen and (max-width: 400px)
 {
+    .members{
+        margin-bottom: 14px;
+    }
     .content{
         font-size: 15pt;
     }
