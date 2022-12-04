@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    margin-top: 1px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -45,8 +46,9 @@ section {
 }
 
 .hr {
-    border: 2px solid;
+    border-top: 2px solid;
     border-color: pink;
+    
 }
 
 .video {
@@ -75,10 +77,11 @@ section {
 .slide{
     width: 100%;
     height: 100%;
-    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0;
+    margin-top: 0;
     
 }
 
@@ -97,6 +100,8 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .footer {
@@ -182,6 +187,15 @@ section {
         object-fit: cover;
     }
 
+    .members{
+        padding-top: 10px;
+    }
+
+    .video{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
 
 
 
@@ -195,14 +209,18 @@ section {
         margin-bottom: 20px;
     }
 
-    .YTvideo {
+    iframe{
         width: 100%;
         height: 100%;
-    }
 
+    }
     
-    
+    .icon{
+        padding-top: 0;
+    }
+            
     .footer {
+        padding-top: 0;
         padding-bottom: 15px;
         font-size: 12pt;
     }
