@@ -9,7 +9,7 @@
 
     font-size: 28pt;  
     font-family: 'Caveat','Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    margin-top: 0;
     
 
 } 
@@ -46,6 +46,8 @@
     color: pink;
 }
 
+/* style="margin-left:250px;" */
+
 /* edit photo */
 .profile{
     background-image:url('./Assets/pink-petals-pink.gif'); 
@@ -81,6 +83,8 @@
     height: 400px;
     margin-left: 80px;
     margin-right: auto;
+    margin-left:250px;
+    
 }
 
 
@@ -91,7 +95,7 @@
     display: flex;
     justify-content: space-around;
     padding: 5px;
-    background-image:url('pink-petals-pink.gif'); 
+    background-image:url('/Assets/pink-petals-pink.gif'); 
     background-size: cover;
 }
 
@@ -102,11 +106,32 @@
     }
     .content{
         font-size: 15pt;
+        margin-top: 0;
     }
     .pic{
         flex-direction: row;
         flex-wrap: wrap;
 
+    }
+    .profile{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 45px;
+
+    }
+
+    .name{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .list{
+        justify-content: center;
+        text-align: left;
+        font-size: 15pt;
+    }
+    .BP{
+        padding: 0;
     }
 
     .pic img{ 
@@ -122,8 +147,13 @@
         
     }
 
+    .BP > img {
+        margin-left: 0;
+    }
+
     .footer {
         padding-bottom: 15px;
+        padding-top: 20px;
         font-size: 12pt;
     }
 }

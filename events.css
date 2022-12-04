@@ -1,5 +1,5 @@
 .head1 {
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 .concerts{
     background-image:url('./Assets/pink-skies.gif'); background-repeat:repeat;
@@ -15,9 +15,8 @@
 }
 
 .table {
-    border: 2px solid pink;
-    background-color: pink;
-    color: black;
+    border: 2px solid #191515;
+    background-color: rgba(255, 197, 197, 0.5);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,11 +29,31 @@
 
 }
 
+.table-item.dateTime{
+    color: black;
+
+}
+
+.table-item.city{
+    color: pink;
+    font-size: 20pt;
+
+}
+
+.table-item.place{
+    color:black;
+    font-size: 15pt;
+}
+
 .table-item{
     flex: 1 1 0px;
     text-align: center;
     padding-right: 50px;
 }
+
+
+
+
 
 .box {
     background-color: black;
@@ -45,14 +64,17 @@
     font-size:  15pt;
     font-weight: bold;
     cursor: pointer;
-
+    margin-left: -35px;
 
     
 }
 
 @media screen and (max-width: 400px)
 {
-    
+    .head1{
+        margin-bottom: 40px;
+        font-size: 30pt;
+    }
     
     
     .poster{
@@ -75,9 +97,6 @@
 
     }
 
-    button{
-        padding-left: 2px;
-    }
 
     .table-item{
         display: flex;
@@ -89,6 +108,9 @@
         padding-top: 10px;
         padding-bottom: 10px;
         font-size: 16pt;
+    }
+    .table-item.place{
+        font-size: 14pt;
     }
 
    
